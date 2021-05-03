@@ -339,7 +339,7 @@ and erease the second block.
   border: var(--srf-color-selection) !important;
   animation: none !important;  
 }
-
+/*
 #urlbar .urlbarView {
   display: none !important;
 }

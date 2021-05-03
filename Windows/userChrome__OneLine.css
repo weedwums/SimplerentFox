@@ -162,10 +162,10 @@ Here you can comment if you want your buttons to be showed up!
   display: none !important;
 }
 
-/* This one clears the tabs icon when they're not pinned  */
+/* This one clears the tabs icon when they're not pinned
 .tabbrowser-tab:not([pinned]) .tab-icon-image {
   display: none !important;
-}
+} */
 
 /* Removing the zoom button  */
 #urlbar-zoom-button {

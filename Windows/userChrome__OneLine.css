@@ -416,3 +416,12 @@ https://www.reddit.com/r/FirefoxCSS/comments/gdsu1l/url_color_based_on_ssl/
 
 /* RED..: http://www.httpvshttps.com/                                                                                             */
 #urlbar[pageproxystate='valid'] #identity-box.notSecure::after { background: #a4000f; }
+
+/* ACTIVE TAB COLOR */
+/* This sets the color of the tab background */
+.tab-background[selected="true"] {
+  background-color: var(--srf-color-selection) !important; 
+  }
+  /* This fixes whatever was causing the active tab to be grey instead of the color selected above*/
+  .tab-background{ background-image: none !important; 
+  }
